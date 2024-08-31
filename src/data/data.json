@@ -1,21 +1,19 @@
 {
   "Header": {
     "title": "Nauka gry w szachy",
-    "paragraph": "Rozwijaj swoje umiejętności w królewskiej grze na zajęciach prowadzonych przez szachową arcymistrzynię Beatę Zawadzką."
+    "paragraph": "Zgłębiaj tajniki królewskiej gry z arcymistrzynią Beatą Zawadzką."
   },
   "About": {
-    "paragraph": "Coś tam, coś tam",
+    "paragraph": "Nazywam się Beata Zawadzka (Kądziołka). Od 2006 roku jestem arcymistrzynią szachową. W swojej karierze zdobyłam medale w Mistrzostwach Polski, Europy, Świata oraz na Olimpiadzie Szachowej. Trenowałam z najlepszymi polskimi i zagranicznymi trenerami. Kiedyś walczyłam o najwyższe laury w zawodach, dzisiaj chętnie dzielę się swoją wiedzą i doświadczeniem i zarażam pasją do królewskiej gry.  ",
     "Why": [
       "Arcymistrzyni szachowa",
-      "Medalistka olimpiady szachowej",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Medalistka Olimpiady Szachowej",
+      "Brązowa Medalistka MŚ do lat 20",
+      "Brązowa Medalistka ME do lat 16"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "40+ medali Mistrzostw Polski",
+      "Współpraca z klubem szachowym UKS Czternastka Warszawa"
     ]
   },
   "Gallery": [
@@ -171,12 +169,12 @@
     {
       "icon": "fa fa-male",
       "title": "Zajęcia indywidualne",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Na terenie Warszawy i okolic."
     },
     {
       "icon": "fa fa-wifi",
       "title": "Zajęcia on-line",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Zajęcia indywidualne lub grupowe na jednej z popularnych platform, np. lichess."
     }
   ]
 }

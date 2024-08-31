@@ -29,10 +29,10 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      {false && <Services data={landingPageData.Services} />}
-      {false &&<Gallery data={landingPageData.Gallery} />}
-      {false && <Testimonials data={landingPageData.Testimonials} />}
-      {false &&<Team data={landingPageData.Team} />}
+      {false && <Services data={landingPageData.Services} /> }
+      {false && <Gallery data={landingPageData.Gallery} /> }
+      {false && <Testimonials data={landingPageData.Testimonials} /> }
+      {false && <Team data={landingPageData.Team} /> }
       <Contact data={landingPageData.Contact} />
     </div>
   );

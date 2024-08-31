@@ -8,27 +8,28 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, phone, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
+    console.log(name, email, phone, message);
+
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_93p98il", "template_yyqgpf5", e.target, "OJgQ81LsKTl0R6pKK")
       .then(
         (result) => {
           console.log(result.text);
           clearState();
+          alert('Wysłano wiadomość! Dziekujemy za kontakt')
         },
         (error) => {
           console.log(error.text);
@@ -49,7 +50,7 @@ export const Contact = (props) => {
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-5">
                     <div className="form-group">
                       <input
                         type="text"
@@ -63,7 +64,7 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <div className="form-group">
                       <input
                         type="email"
@@ -72,6 +73,20 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-3">
+                    <div className="form-group">
+                      <input
+                        type="phone"
+                        id="phone"
+                        name="phone"
+                        className="form-control"
+                        placeholder="Telefon"
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -142,7 +157,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-             Warszawa 2024, 3Mountains
+            Warszawa 2024, 3Mountains
           </p>
         </div>
       </div>

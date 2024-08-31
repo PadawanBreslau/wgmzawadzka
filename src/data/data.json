@@ -1,13 +1,13 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Nauka gry w szachy",
+    "paragraph": "Rozwijaj swoje umiejętności w królewskiej grze na zajęciach prowadzonych przez szachową arcymistrzynię Beatę Zawadzką."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Coś tam, coś tam",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
+      "Arcymistrzyni szachowa",
+      "Medalistka olimpiady szachowej",
       "Lorem ipsum dolor",
       "Incididunt ut labore"
     ],
@@ -152,32 +152,30 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Ursus, Warszawa",
+    "phone": "+48 785224270",
+    "email": "zawadzka.chess@gmail.com",
+    "facebook": "fb.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-graduation-cap ",
+      "title": "Nauka w szkołach",
+      "text": "Zajęcia w grupach zorganizowanych w szkołach podstawowych"
+    },
+    {
+      "icon": "fa fa-child",
+      "title": "Nauka w przedszkolach",
+      "text": "Zajęcia w grupach zorganizowanych w przedszkolach"
+    },
+    {
+      "icon": "fa fa-male",
+      "title": "Zajęcia indywidualne",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-wifi",
+      "title": "Zajęcia on-line",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ]

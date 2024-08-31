@@ -208,7 +208,9 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  font-size: x-large;
+  font-weight: 600;
+  background: url(../img/wgm-szachy-5.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,7 +222,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #f8f8fa;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -240,8 +242,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 540px;
+  padding-bottom: 60px;
   text-align: center;
 }
 /* Features Section */
